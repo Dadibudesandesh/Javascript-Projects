@@ -1,0 +1,55 @@
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #358597;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    color:#fff;
+    
+.main{
+    width: 60%;
+    text-align: center;
+    margin: 10px auto;
+
+    h1,h2{
+        margin: 0;padding: 0;
+    }
+
+    .card{
+        background-color: #fff;
+        padding: 3rem;
+        border-radius: 5px;
+        width: 200px;
+        display: inline-block;
+        margin: 1rem;
+        color: #000;
+        box-shadow: 15px 15px 0px 0px rgba(0, 0, 0, 0.2) ;
+
+        span{
+            font-size: 2rem;
+            display: block;
+        }
+    }
+
+    textarea{
+        display: block;
+        padding: 10px;
+        width: calc(100% - 3rem);
+        height: 200px;
+        border: 0;
+        margin: 1rem 0;
+        font-size: 1rem;
+        border-radius: 5px;
+        &:focus{
+            outline: none;
+        }
+    }
+    .word-count,.char-count{
+        font-weight: bold;
+        font-size: 1rem;
+    }
+}
+
+}
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>Add Chapters</title>
+  </head>
+
+  <body>
+    <header id="header">
+      <nav>
+        <div class="navbar">
+          <a href="#">Home</a>
+          <a href="/Examples/example3.html">About</a>
+          <a href="#">Contact</a>
+        </div>
+      </nav>
+      <main>
+        <div class="container">
+          <div class="input-group">
+            <input
+              type="text"
+              id="form-control"
+              class="form-control"
+              placeholder="Chapter Name"
+              name="Chapter"
+            />
+            <button id="btn" type="button">ADD</button>
+          </div>
+          <ul id="perentList">
+            <li class="list-group">
+              <h3 class="h3">Chapter 1</h3>
+              <button id="btn3" onclick="editchapter(this)">Edit</button>
+              <button id="btn2" onclick="deletchapter(this)">Delete</button>
+            </li>
+          </ul>
+        </div>
+      </main>
+    </header>
+    <script src="script.js"></script>
+  </body>
+</html>

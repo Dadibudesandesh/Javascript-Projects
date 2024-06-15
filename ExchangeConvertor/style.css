@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: rgb(227, 218, 200);
+}
+.container{
+    width: 50%;
+    height: 80%;
+    background:rgb(227, 253, 253);
+    text-align: center;
+    border-radius: 10px;
+box-shadow: 0 0 20px rgb(177, 167, 150);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+transition: 0.7s ease;
+
+}
+
+/* .container:hover{
+    transform: translateY(-20px);
+} */
+
+.title{
+    color:black;
+    margin-top: 20px;
+}
+
+.main{
+    width: 60%;
+    height: 80%;
+    /* background: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.select{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.select img{
+    width: 70px;
+}
+
+.select .options{
+    padding: 10px;
+    outline: none;
+    background: transparent;
+    border-radius: 5px;
+}
+
+.main input{
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+    outline: none;
+    border: 1px solid rgb(133,161,161);
+    border-radius: 5px;
+    font-size: 1.3rem;
+    background: transparent;
+}
+.main p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#toText{
+    background: transparent;
+}
+button{
+    padding: 10px;
+    margin-bottom: 20px;
+    background: transparent;
+    outline: none;
+    border: 1px solid rgb(133, 161, 161);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 0 0 10px rgb(133, 161, 161);
+}
+

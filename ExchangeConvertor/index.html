@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Exchange Convertor</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Exchange Convertor</h1>
+      </div>
+      <div class="main">
+        <div class="select">
+          <p>FROM</p>
+          <img src="" alt="" id="fromFlag"/>
+          <select name="from" class="options" id="from">
+            <!-- <option value="" class="opetion" selected>USD</option>
+            <option value="" class="opetion">INR</option>
+            <option value="" class="opetion">EUR</option>
+            <option value="" class="opetion">NP</option> -->
+          </select>
+        </div>
+        <input type="number" id="fromText" placeholder="Enter Amount" value="1" />
+        <div class="select">
+          <p>TO</p>
+          <img src="" alt="" id="toFlag"/>
+          <select name="to" class="options" id="to">
+            <!-- <option value="" class="opetion">USD</option>
+            <option value="" class="opetion" selected>INR</option>
+            <option value="" class="opetion">EUR</option>
+            <option value="" class="opetion">NP</option> -->
+          </select>
+        </div>
+        <input type="text" disabled value="" id="toText" />
+      </div>
+      <div class="btn">
+        <button id="btn" value="Convert">Convert</button>
+        <!-- <button type="reset">Reset</button> -->
+      </div>
+    </div>
+    <script src="codes.js"></script>
+    <script src="script.js"></script>
+   
+  </body>
+</html>

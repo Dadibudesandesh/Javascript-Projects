@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, #010758, #490d61);
+  flex-direction: column;
+}
+
+.main h1 {
+  font-size: 45px;
+  font-weight: 600;
+  margin-top: -50px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.main span{
+    color: rgb(255, 26, 255);
+}
+
+textarea{
+    width: 600px;
+    height: 250px;
+    background: #403d84;
+    color: #fff;
+    font-size: 15px;
+    border: 0;
+    outline:0;
+    padding: 20px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 30px;
+}
+
+textarea::placeholder{
+    color: #ffff;
+    opacity: 0.6;
+    font-size: 16px;
+}
+
+.row{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+button{
+    background:#ff2963;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    padding: 0 20px;
+    height: 50px;
+    outline: none;
+    cursor: pointer;
+}
+select{
+    flex: 1;
+    color: #fff;
+    background: #403d84;
+    height: 50px;
+    padding: 0 20px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    appearance: none;
+    background-image: url(img/down-arrow.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x: calc(100% - 20px);
+    background-position-y: 20px;
+}
